@@ -1,0 +1,280 @@
+.body{
+    font-family: 'Roboto Mono', sans-serif;
+    background-image: url(/fon.jpeg);
+}
+
+.fio{
+    color: white;
+    -webkit-text-stroke: 1px rgb(43, 43, 43);
+}
+
+/* .fon{
+    background-image: url(/fon.jpeg);
+} */
+
+.file{
+    color: rgb(213, 209, 209);
+    -webkit-text-stroke: 1px rgb(43, 43, 43);
+    font-size: 18px;
+    font-weight:bold;
+    margin: auto;
+    font-size: 18px;
+    text-align: left;
+    font-weight:bold;
+    display: flex; 
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 15%;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.lalala{
+    background-color: aqua;
+    width: 35%;
+    height: 35%;
+    margin-top: 16%;
+    margin-left: 33%;
+    margin-bottom: 16%;
+    border: 3px solid;
+    border-color: white;
+    background-color: antiquewhite;
+}
+
+.form-groupp{
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight:bold;
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 50%;
+    color: antiquewhite;
+}
+
+.zagolovok1{
+    text-align: center;
+}
+
+.checkbox{
+    text-align:center;
+    vertical-align:middle;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    font-size: 14px;
+    padding-top: 5px;
+    margin: 0 auto;
+    -webkit-text-stroke: 1px rgb(43, 43, 43);
+}
+
+.vibor3::placeholder {color: rgb(128, 127, 127);;}
+
+.fioemail{
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    display: flex;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    -webkit-text-stroke: 1px rgb(43, 43, 43);
+}
+
+.form-group{
+    margin: 0 auto;
+    font-size: 18px;
+    color: rgb(163, 111, 43);
+    font-weight:bold;
+    display: flex;
+    vertical-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 25%;
+}
+
+.header{
+    margin: 0 auto;
+    width: auto;
+    color: rgb(163, 111, 43);
+}
+
+.nav{
+    margin: auto;
+    font-size: 18px;
+    color: rgb(163, 111, 43);
+    font-weight:bold;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 45%;
+    flex-direction: column;
+    height: 75px;
+}
+
+.message::placeholder {color: rgb(128, 127, 127);}
+
+.message{
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 14px;
+    color: rgb(128, 127, 127);
+    font-weight:bold;
+    background-color: rgb(255, 249, 241);
+}
+
+.center{
+    text-align: center;
+}
+
+.ramka{
+    margin: auto;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-weight:bold;
+    display: flex; 
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 40%;
+    margin: auto;
+    border-radius: 15px;
+    -webkit-text-stroke: 0.5px rgb(43, 43, 43);
+}
+
+.vibor{
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-weight:bold;
+    font-size: 14px;
+    display: flex;
+    border-radius: 15px;
+}
+
+.vibor1{
+    margin: auto;
+    color: rgb(202, 33, 33);
+    text-align: left; 
+    font-weight:bold;
+    display: flex;
+    background-color: rgb(255, 249, 241);
+}
+
+.vibor2{
+    margin: auto;
+    color: rgb(28, 173, 66);
+    text-align: left; 
+    font-weight:bold;
+    display: flex;
+    background-color: rgb(255, 249, 241);
+}
+
+.form_obr{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.vibor3{
+    margin: auto;
+    color: rgb(128, 127, 127);
+    text-align: left;
+    font-weight:bold;
+    font-size: 14px;
+    display: flex;
+    border-radius: 15px;
+    padding: 2px;
+    padding-left: 10px;
+    background-color: rgb(255, 249, 241);
+    margin-left: 8.5%;
+}
+
+.vibor_email{
+    margin: auto;
+    margin-left: 5%;
+    text-align: left;
+    font-weight:bold;
+    font-size: 14px;
+    display: flex;
+    border-radius: 15px;
+    padding: 2px;
+    padding-left: 10px;
+    color: rgb(128, 127, 127);
+    background-color: rgb(255, 249, 241);
+}
+
+.vibor4{
+    margin: auto;
+    color: rgb(128, 127, 127);
+    text-align: left;
+    font-weight:bold;
+    font-size: 14px;
+    display: flex;
+    border-radius: 15px;
+    padding: 2px;
+    padding-left: 10px;
+    background-color: rgb(255, 249, 241);
+
+}
+
+.zagolovok{
+    text-align: center;
+    color: rgb(204, 164, 113);
+}
+
+.button {
+    margin: auto;
+    border: 1px solid rgb(35, 35, 35);
+    padding: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 30px;
+    border-radius: 15px;
+    color: rgb(72, 71, 71);
+    background-color: rgb(192, 189, 186);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    transition: 0.2s;
+    font-weight: 500;
+    box-shadow: 0px 0px 2px 2px rgb(42, 42, 42);
+    font-family: Roboto Mono;
+    font-size: 16px;
+    font-weight:bold;
+  }
+
+.button:hover {
+    background-color:rgb(227, 214, 192);
+    transition: 0.2s;
+}
+
+.buttonvhod {
+    margin: 20px auto;
+    border: 1px solid rgb(79, 57, 22);
+    padding: 4px;
+    padding-top: 10px;
+    padding-bottom: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 30px;
+    border-radius: 15px;
+    color: rgb(79, 57, 22);
+    background-color: rgb(204, 183, 147);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    transition: 0.2s;
+    font-weight: 500;
+    box-shadow: 0px 0px 2px 2px rgb(79, 57, 22);
+    font-family: Roboto Mono;
+    font-size: 16px;
+    font-weight:bold;
+    width: 40px;
+  }
