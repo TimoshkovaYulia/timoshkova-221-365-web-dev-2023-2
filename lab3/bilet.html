@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru" class="container">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Концерты</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/print.css" media="print">
+</head>
+<body class="body">
+    <div class="">
+        <label class="form-group" for="fio">ФИО</label>
+        <input class="vibor4" type="text" id="fio" name="fio" placeholder="Иванов Иван Иванович">
+    </div>
+    <div class="">
+        <label class="form-group" for="fio">Выберите исполнителя</label>
+        <select class="vibor4" name="type" id="type">
+            <option value="atl">ATL</option>
+            <option value="haski">Хаски</option>
+            <option value="undead">Hollywood Undead</option>
+            <option value="krovostok">Кровосток</option>
+            <option value="dt">Дайте танк(!)</option>
+            <option value="shit">Ssshhhiiittt!</option>
+        </select>
+    </div>
+    <fieldset class="" >
+        <legend class="form-group">Как вам отправить билет?</legend>
+                <div class="form-group">
+                    <input type="radio" name="source" id="mail" value="mail">
+                    <label for="adv">Почта</label>
+                </div>
+                <div class="form-group">
+                    <input type="radio" name="source" id="tg" value="tg">
+                    <label for="friends">Телеграм</label>
+                </div>
+                <div class="form-group">
+                    <input type="radio" name="mes" id="social" value="mes">
+                    <label for="social">Сообщение</label>
+                </div>
+    </fieldset>
+    <div>
+        <a class="btn2" href="index.html">Отправить</a>
+    </div>
+</body>
